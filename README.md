@@ -8,8 +8,8 @@ I have kept the definitions, terminologies as simple as possible as this is the 
 Language used is Scala.
 
 ## Thread
-    A Thread is an entity that represents a line of execution of the code - To keep it simple, this is the one using 
-    which our code gets executed.
+A Thread is an entity that represents a line of execution of the code - To keep it simple, this is the one using 
+which our code gets executed.
 
 ## Concurrency (vs) Parallelism
 
