@@ -34,15 +34,36 @@ To me, this is one of the highly misused word and mixed with each other. The sim
     inherently utilize all the cores efficiently and this should be welded into the design of the software.
     Writing concurrent software is hard! Debugging them is harder and testing them is hardest!
     
-## Evolution..
+## Evolution of Concurrency on the JVM.
 
-* Java Thread & Runnable 
-* Executors (java.util.concurrent) - Java 5
-* Fork Join - Java 7
------------ STILL HARD NEED SIMPLE ABSTRACTIONS! -----------
-* Need better abstractions
-* Future (Let's discuss Scala futures only as Java future is almost useless.)
-* Akka Actors (Scala)
-* Rx Java (Java).
+* Java Thread & Runnable - Primitives (Stone Age)
+* Executors (java.util.concurrent) - Java 5 - Higher abstractions
+* Fork Join - Java 7 - Pool of threads that can steal work from each other.
+
+----------- STILL HARD!!! NEED SIMPLE ABSTRACTIONS! -----------
+* Future - Asynchronous & Nonblocking schemes.
+* Akka Actors.
+* Rx Java.
+
+
+## Principles of Reactive Concurrency (This is NOT Reactive Manifesto) ##
+
+* Asynchronous
+* Event Driven
+* Non Blocking
+
+## A Toy Problem 
+
+** Pumpkin is a coffee shop startup who wants to be the best in producing quality coffee to their customers.
+
+* Lets look at their evolution *
+
+
+
+
+
+
+
+
 
 
