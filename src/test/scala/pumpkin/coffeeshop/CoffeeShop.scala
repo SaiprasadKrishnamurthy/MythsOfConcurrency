@@ -11,11 +11,11 @@ import scala.concurrent.duration.Duration
  */
 class CoffeeShop extends FlatSpec with ShouldMatchers {
 
-  /*"Synchronous coffee maker" should "prepare the coffee for the requests sequentially one after the other in a synchronous way " in {
+  "Synchronous coffee maker" should "prepare the coffee for the requests sequentially one after the other in a synchronous way " in {
     val coffeeRequests = Seq(CoffeeRequest("Sai", "Mocha", "Large"), CoffeeRequest("Joe", "Cappuchino", "Regular"), CoffeeRequest("Blogg", "Latte", "Regular"))
     val coffees = CoffeeMakerService.makeCoffeeSynchronous(coffeeRequests)
     println("----------- Coffees ready ------------- " + coffees)
-  }*/
+  }
 
   "Async coffee maker" should "prepare the coffee for the requests in an asynchronous way " in {
     val coffeeRequests = Seq(CoffeeRequest("Sai", "Mocha", "Large"), CoffeeRequest("Joe", "Cappuchino", "Regular"), CoffeeRequest("Blogg", "Latte", "Regular"))
