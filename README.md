@@ -56,7 +56,20 @@ To me, this is one of the highly misused word and mixed with each other. The sim
 
 ##### Pumpkin is a coffee shop startup who wants to be the best in producing quality coffee to their customers
 
+* They have 2 Baristas (members of staff who prepare coffee). They can't afford more as they are a startup you see.
+
 ###Lets look at their evolution
+
+* Sequential coffee preparation.
+* Asynchronous coffee preparation.
+* Complete Non-Blocking coffee preparation.
+
+A Sudden Layoff of a Barista!!
+
+* Demo the approaches with a single barista.
+
+
+
 
 
 
