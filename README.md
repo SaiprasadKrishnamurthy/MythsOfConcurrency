@@ -78,6 +78,8 @@ A Sudden Layoff of a Barista!!
 
 * Demo the approaches with a single barista.
 
+### "Async is about doing parallel things asynchronously and Non-Blocking is about doing things in parallel asynchronously."
+
 
 
 
