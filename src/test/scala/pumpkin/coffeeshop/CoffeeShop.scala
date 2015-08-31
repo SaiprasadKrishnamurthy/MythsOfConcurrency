@@ -39,5 +39,4 @@ class CoffeeShopTest extends FlatSpec with ShouldMatchers {
     Await.ready(coffees, Duration.Inf)
   }
 
-
 }

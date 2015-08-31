@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit
 
 import pumpkin.coffeeshop.BarristaConfig._
 
-import scala.concurrent.Future
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration.Duration
 
 
@@ -64,6 +64,8 @@ object Kitchen {
     }
     println(s"NON BLOCKING FINISHED Preparing coffee for coffee request: ${coffeeRequest}\n")
     Future {
+      Await.ready(waterF, Duration.Inf)
+      Await.ready(milkF, Duration.Inf)
       Coffee(coffeeRequest.customerName, coffeeRequest.coffee, coffeeRequest.size)
     }
   }
