@@ -16,12 +16,12 @@ class CoffeeShopTest extends FlatSpec with ShouldMatchers {
     val coffees = CoffeeShop.makeCoffeeSynchronous(coffeeRequests)
     println("----------- Coffees ready ------------- " + coffees)
   }
-
   "Concurrent coffee maker" should "prepare the coffee for the requests concurrently but in a synchronous way (this is a naive attempt to parallalize) " in {
     val coffeeRequests = Seq(CoffeeRequest("Sai", "Mocha", "Large"), CoffeeRequest("Joe", "Cappuchino", "Regular"), CoffeeRequest("Blogg", "Latte", "Regular"))
     val coffees = CoffeeShop.makeCoffeeConcurrentlyNaive(coffeeRequests)
     println("----------- Coffees ready ------------- " + coffees)
   }
+
 
   "Async coffee maker" should "prepare the coffee for the requests in an asynchronous way " in {
     val coffeeRequests = Seq(CoffeeRequest("Sai", "Mocha", "Large"), CoffeeRequest("Joe", "Cappuchino", "Regular"), CoffeeRequest("Blogg", "Latte", "Regular"))
