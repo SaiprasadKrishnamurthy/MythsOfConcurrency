@@ -62,7 +62,7 @@ Writing concurrent software is hard! Debugging them is harder and testing them i
 * Event Driven
 * Non Blocking
 
-## A Toy Problem 
+## A Toy Problem (Story of an arbitrary Coffee Shop)
 
 ##### Pumpkin is a coffee shop startup who wants to be the best in producing quality coffee to their customers
 
